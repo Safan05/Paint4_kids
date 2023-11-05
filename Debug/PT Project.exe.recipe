@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
+      <FullPath>D:\Paint4 kids\Debug\PT Project.exe</FullPath>
+=======
       <FullPath>D:\studfy\programming\project\Debug\PT Project.exe</FullPath>
+>>>>>>> 263ad19451b9f4b30d70806aed2b8f53ba0f56f1
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

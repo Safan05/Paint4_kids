@@ -1,3 +1,7 @@
 D:\Computer department\Phase1 - Code F22\Debug\PT Project.exe
+<<<<<<< HEAD
+D:\Paint4 kids\Debug\PT Project.exe
+=======
 C:\Users\Shireen Mostafa\Desktop\PPP\Debug\PT Project.exe
 D:\studfy\programming\project\Debug\PT Project.exe
+>>>>>>> 263ad19451b9f4b30d70806aed2b8f53ba0f56f1

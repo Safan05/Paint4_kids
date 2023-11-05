@@ -1,3 +1,44 @@
+<<<<<<< HEAD
+D:\Paint4 kids\CMUgraphicsLib\auxil.cpp;D:\Paint4 kids\Debug\auxil.obj
+D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp;D:\Paint4 kids\Debug\CMUgraphics.obj
+D:\Paint4 kids\CMUgraphicsLib\colors.cpp;D:\Paint4 kids\Debug\colors.obj
+D:\Paint4 kids\CMUgraphicsLib\image.cpp;D:\Paint4 kids\Debug\image.obj
+D:\Paint4 kids\CMUgraphicsLib\jpegload.c;D:\Paint4 kids\Debug\jpegload.obj
+D:\Paint4 kids\CMUgraphicsLib\keyqueue.cpp;D:\Paint4 kids\Debug\keyqueue.obj
+D:\Paint4 kids\CMUgraphicsLib\mousequeue.cpp;D:\Paint4 kids\Debug\mousequeue.obj
+D:\Paint4 kids\CMUgraphicsLib\windowinput.cpp;D:\Paint4 kids\Debug\windowinput.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jcomapi.c;D:\Paint4 kids\Debug\jcomapi.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jcparam.c;D:\Paint4 kids\Debug\jcparam.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdapimin.c;D:\Paint4 kids\Debug\jdapimin.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdapistd.c;D:\Paint4 kids\Debug\jdapistd.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdatasrc.c;D:\Paint4 kids\Debug\jdatasrc.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdcoefct.c;D:\Paint4 kids\Debug\jdcoefct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdcolor.c;D:\Paint4 kids\Debug\jdcolor.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jddctmgr.c;D:\Paint4 kids\Debug\jddctmgr.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdhuff.c;D:\Paint4 kids\Debug\jdhuff.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdinput.c;D:\Paint4 kids\Debug\jdinput.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmainct.c;D:\Paint4 kids\Debug\jdmainct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmarker.c;D:\Paint4 kids\Debug\jdmarker.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmaster.c;D:\Paint4 kids\Debug\jdmaster.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmerge.c;D:\Paint4 kids\Debug\jdmerge.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdphuff.c;D:\Paint4 kids\Debug\jdphuff.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdpostct.c;D:\Paint4 kids\Debug\jdpostct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdsample.c;D:\Paint4 kids\Debug\jdsample.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdtrans.c;D:\Paint4 kids\Debug\jdtrans.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jerror.c;D:\Paint4 kids\Debug\jerror.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctflt.c;D:\Paint4 kids\Debug\jidctflt.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctfst.c;D:\Paint4 kids\Debug\jidctfst.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctint.c;D:\Paint4 kids\Debug\jidctint.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctred.c;D:\Paint4 kids\Debug\jidctred.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemmgr.c;D:\Paint4 kids\Debug\jmemmgr.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemnobs.c;D:\Paint4 kids\Debug\jmemnobs.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jquant1.c;D:\Paint4 kids\Debug\jquant1.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jquant2.c;D:\Paint4 kids\Debug\jquant2.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jutils.c;D:\Paint4 kids\Debug\jutils.obj
+D:\Paint4 kids\GUI\Input.cpp;D:\Paint4 kids\Debug\Input.obj
+D:\Paint4 kids\GUI\Output.cpp;D:\Paint4 kids\Debug\Output.obj
+D:\Paint4 kids\TestCode.cpp;D:\Paint4 kids\Debug\TestCode.obj
+=======
 D:\studfy\programming\project\CMUgraphicsLib\auxil.cpp;D:\studfy\programming\project\Debug\auxil.obj
 D:\studfy\programming\project\CMUgraphicsLib\CMUgraphics.cpp;D:\studfy\programming\project\Debug\CMUgraphics.obj
 D:\studfy\programming\project\CMUgraphicsLib\colors.cpp;D:\studfy\programming\project\Debug\colors.obj
@@ -37,3 +78,4 @@ D:\studfy\programming\project\CMUgraphicsLib\jpeg\jutils.c;D:\studfy\programming
 D:\studfy\programming\project\GUI\Input.cpp;D:\studfy\programming\project\Debug\Input.obj
 D:\studfy\programming\project\GUI\Output.cpp;D:\studfy\programming\project\Debug\Output.obj
 D:\studfy\programming\project\TestCode.cpp;D:\studfy\programming\project\Debug\TestCode.obj
+>>>>>>> 263ad19451b9f4b30d70806aed2b8f53ba0f56f1

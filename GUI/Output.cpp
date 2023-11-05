@@ -1,4 +1,6 @@
 #include "Output.h"
+#include "cmath"
+#include"UI_Info.h"
 Output::Output()
 {
 	//Initialize user interface parameters
@@ -72,6 +74,16 @@ void Output::CreateDrawToolBar() const
 	//To control the order of these images in the menu, 
 	//reoder them in UI_Info.h ==> enum DrawMenuItem
 	string MenuItemImages[DRAW_ITM_COUNT];
+	MenuItemImages[ITM_RECT]   = "images\\MenuItems\\Menu_Rect.jpg";
+	//MenuItemImages[ITM_SQUARE] = "images\\MenuItems\\Menu_Square.jpg";
+	MenuItemImages[ITM_TRI]    = "images\\MenuItems\\Menu_Tri.jpg";
+	MenuItemImages[ITM_CIRC]   = "images\\MenuItems\\Menu_Circ.jpg";
+	//MenuItemImages[ITM_HEXA]   = "images\\MenuItems\\Menu_Hexa.jpg";
+	//MenuItemImages[ITM_SELECT] = "images\\MenuItems\\Menu_Select.jpg";
+	//MenuItemImages[ITM_DELETE] = "images\\MenuItems\\Menu_Delete.jpg";
+	//MenuItemImages[ITM_CLEAR] = "images\\MenuItems\\Menu_Clear.jpg";
+	MenuItemImages[ITM_EXIT]   = "images\\MenuItems\\Menu_Exit.jpg";
+
 	MenuItemImages[ITM_RECT] = "images\\MenuItems\\Menu_Rect.jpg";
 	MenuItemImages[ITM_EXIT] = "images\\MenuItems\\Menu_Exit.jpg";
 	MenuItemImages[ITM_SAVEGRAPH] = "images\\MenuItems\\Save_graph.jpg"; 
@@ -184,7 +196,7 @@ void Output::DrawSQ(Point P1, GfxInfo RectGfxInfo, bool selected) const
 		DrawingClr = UI.HighlightColor; //Figure should be drawn highlighted
 	else
 		DrawingClr = RectGfxInfo.DrawClr;
-
+	
 	pWind->SetPen(DrawingClr, 1);
 	drawstyle style;
 	if (RectGfxInfo.isFilled)
@@ -195,8 +207,60 @@ void Output::DrawSQ(Point P1, GfxInfo RectGfxInfo, bool selected) const
 	else
 		style = FRAME;
 
-	pWind->DrawRectangle(P1.x-50, P1.y-50, P1.x+50, P1.y+50, style);
+	pWind->DrawRectangle(P1.x - 50, P1.y - 50, P1.x + 50, P1.y + 50, style);
 }
+
+
+void Output::DrawTri(Point P1, Point P2, Point P3, GfxInfo TriGfxInfo, bool selected) const
+{
+	color DrawingClr;
+	if (selected)
+		DrawingClr = UI.HighlightColor; //Figure should be drawn highlighted
+	else
+		DrawingClr = TriGfxInfo.DrawClr;
+
+	pWind->SetPen(DrawingClr, 1);
+	drawstyle style;
+	if (TriGfxInfo.isFilled)
+	{
+		style = FILLED;
+		pWind->SetBrush(TriGfxInfo.FillClr);
+	}
+	else
+		style = FRAME;
+
+
+	pWind->DrawTriangle(P1.x, P1.y, P2.x, P2.y, P3.x, P3.y, style);
+}
+
+void Output::DrawCirc(Point P1, Point P2, GfxInfo CircGfxInfo, bool selected) const
+{
+	Point P3;
+	int a, b, r;
+	a = abs(P1.x - P2.x);
+	b = abs(P1.y - P2.y);
+	r = sqrt(a * a + b * b);
+	color DrawingClr;
+	if (selected)
+		DrawingClr = UI.HighlightColor; //Figure should be drawn highlighted
+	else
+		DrawingClr = CircGfxInfo.DrawClr;
+
+	pWind->SetPen(DrawingClr, 1);
+	drawstyle style;
+	if (CircGfxInfo.isFilled)
+	{
+		style = FILLED;
+		pWind->SetBrush(CircGfxInfo.FillClr);
+	}
+	else
+		style = FRAME;
+
+
+	pWind->DrawCircle(P1.x, P1.y, r, style);
+}
+
+	
 //////////////////////////////////////////////////////////////////////////////////////////
 Output::~Output()
 {
