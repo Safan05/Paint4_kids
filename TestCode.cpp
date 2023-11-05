@@ -46,14 +46,7 @@ int main()
 	pOut->PrintMessage("Drawing a Rectangle ==> non-filled,  Click two points");
 	pIn->GetPointClicked(P1.x, P1.y);
 	pIn->GetPointClicked(P2.x, P2.y);
-	while (P1.y<UI.ToolBarHeight && P1.y>UI.height - UI.StatusBarHeight) {
-		pOut->PrintMessage("Please click on the Drawing area");
-		pIn->GetPointClicked(P1.x, P1.y);
-	}
-	while (P2.y<UI.ToolBarHeight && P2.y>UI.height - UI.StatusBarHeight) {
-		pOut->PrintMessage("Please click on the Drawing area");
-		pIn->GetPointClicked(P2.x, P2.y);
-	}
+	
 
 	gfxInfo.BorderWdth = 5;
 	gfxInfo.DrawClr = BLACK;	//any color for border
@@ -240,40 +233,80 @@ int main()
 		switch (ActType)
 		{
 		case DRAW_RECT:
-				pOut->PrintMessage("Action: Draw a Rectangle , Click anywhere");
-				break;
+			pOut->PrintMessage("Action: Draw a Rectangle , Click anywhere");
+			break;
+		case DRAW_SQUARE:
+			pOut->PrintMessage("Action: Draw a Square , Click anywhere");
+			break;
+		case DRAW_TRI:
+			pOut->PrintMessage("Action: Draw a Triangle , Click anywhere");
+			break;
+		case DRAW_CIRC:
+			pOut->PrintMessage("Action: Draw a Circle , Click anywhere");
+			break;
+		case DRAW_HEXA:
+			pOut->PrintMessage("Action: Draw a Hexagon , Click anywhere");
+			break;
+		case SELECT:
+			pOut->PrintMessage("Action: Select Item , Click anywhere");
+			break;
+		case DELETE_FIG:
+			pOut->PrintMessage("Action: Delete Item , Click anywhere");
+			break;
+		case CLEAR_ALL:
+			pOut->PrintMessage("Action: Clear all , Click anywhere");
+			break;
+		case Start_Rec:
+			pOut->PrintMessage("Action: Start Recording , Click anywhere");
+			break;
+
+		case Stop_Rec:
+			pOut->PrintMessage("Action: Stop Recording , Click anywhere");
+			break;
+
+		case Play_Rec:
+			pOut->PrintMessage("Action: play Record , Click anywhere");
+			break;
+
+		case Save_graph:
+			pOut->PrintMessage("Action: Save a graph , Click anywhere");
+			break;
+
+		case load_graph:
+			pOut->PrintMessage("Action: load a graph , Click anywhere");
+			break;
 
 		case STATUS:
-				pOut->PrintMessage("Action: a click on the Status Bar, Click anywhere");
-				break;
- 
+			pOut->PrintMessage("Action: a click on the Status Bar, Click anywhere");
+			break;
+
 		case DRAWING_AREA:
-				pOut->PrintMessage("Action: a click on the Drawing Area, Click anywhere");
-				break;
+			pOut->PrintMessage("Action: a click on the Drawing Area, Click anywhere");
+			break;
 
 		case EMPTY:
-				pOut->PrintMessage("Action: a click on empty area in the Design Tool Bar, Click anywhere");
-				break;
+			pOut->PrintMessage("Action: a click on empty area in the Design Tool Bar, Click anywhere");
+			break;
 
 		case TO_DRAW:
-				pOut->PrintMessage("Action: Switch to Draw Mode, creating simualtion tool bar");
-				pOut->CreateDrawToolBar();
-				break;
+			pOut->PrintMessage("Action: Switch to Draw Mode, creating simualtion tool bar");
+			pOut->CreateDrawToolBar();
+			break;
 
 		case TO_PLAY:
-				pOut->PrintMessage("Action: Switch to Play Mode, creating Design tool bar");
-				pOut->CreatePlayToolBar();
-				break;
+			pOut->PrintMessage("Action: Switch to Play Mode, creating Design tool bar");
+			pOut->CreatePlayToolBar();
+			break;
 
 
 
-		///TODO: Add more cases for the other action types
+			///TODO: Add more cases for the other action types
 
 
-		case EXIT:				
-				break;
+		case EXIT:
+			break;
 		}
-	}while(ActType != EXIT);
+	} while (ActType != EXIT);
 
 
 	/// Exiting

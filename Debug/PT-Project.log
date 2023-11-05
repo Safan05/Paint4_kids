@@ -1,12 +1,2 @@
-﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  TestCode.cpp
-D:\Paint4 kids\DEFS.h(17,2): error C2365: 'DRAW_RECT': redefinition; previous definition was 'enumerator'
-D:\Paint4 kids\DEFS.h(9,2): message : see declaration of 'DRAW_RECT'
-  Output.cpp
-D:\Paint4 kids\DEFS.h(17,2): error C2365: 'DRAW_RECT': redefinition; previous definition was 'enumerator'
-D:\Paint4 kids\DEFS.h(9,2): message : see declaration of 'DRAW_RECT'
-D:\Paint4 kids\GUI\Output.cpp(242,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  Input.cpp
-D:\Paint4 kids\DEFS.h(17,2): error C2365: 'DRAW_RECT': redefinition; previous definition was 'enumerator'
-D:\Paint4 kids\DEFS.h(9,2): message : see declaration of 'DRAW_RECT'
-  Generating Code...
+﻿  PT-Project.vcxproj -> D:\Paint4 kids\Debug\PT Project.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5445,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.

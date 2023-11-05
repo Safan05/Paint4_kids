@@ -14,7 +14,6 @@ enum ActionType //The actions supported (you can add more if needed)
 	SELECT,
     DELETE_FIG,
 	CLEAR_ALL,
-	DRAW_RECT,		//Draw Rectangle
 	Save_graph,
 	load_graph,
 	EXIT,			//Exit
