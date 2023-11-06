@@ -52,13 +52,13 @@ ActionType Input::GetUserAction() const
 			switch (ClickedItemOrder)
 			{
 			case ITM_RECT: return DRAW_RECT;
-			//case ITM_SQUARE: return DRAW_SQUARE;
-			//case ITM_TRI: return DRAW_TRI;
+			case ITM_SQUARE: return DRAW_SQUARE;
+			case ITM_TRI: return DRAW_TRI;
 			case ITM_CIRC: return DRAW_CIRC;
-			//case ITM_HEXA: return DRAW_HEXA;
-			//case ITM_SELECT: return SELECT;
-			//case ITM_DELETE: return DELETE_FIG;
-			//case ITM_CLEAR: return CLEAR_ALL;
+			case ITM_HEXA: return DRAW_HEXA;
+			case ITM_SELECT: return SELECT;
+			case ITM_DELETE: return DELETE_FIG;
+			case ITM_CLEAR: return CLEAR_ALL;
 			case ITM_StartRecording:return Start_Rec;
 			case ITM_StopRecording:return Stop_Rec;
 			case ITM_PlayRecord:return Play_Rec;
