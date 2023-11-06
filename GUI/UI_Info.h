@@ -18,8 +18,13 @@ enum DrawMenuItem //The items of the Draw menu (you should add more items)
 	//Note: Items are **(ordered)** here as they appear in menu
 	//If you want to change the menu items order, change the order here
 	ITM_RECT,		//Recangle item in menu
-
-	//TODO: Add more items names here
+	//ITM_SQUARE,
+	ITM_TRI,
+	ITM_CIRC,
+	//ITM_HEXA,
+	//ITM_SELECT,
+	//ITM_DELETE,
+	//ITM_CLEAR,
 	ITM_StartRecording,
 	ITM_StopRecording,
 	ITM_PlayRecord,

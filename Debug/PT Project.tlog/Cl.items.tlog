@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Shireen Mostafa\Desktop\PPP\CMUgraphicsLib\auxil.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\auxil.obj
 C:\Users\Shireen Mostafa\Desktop\PPP\CMUgraphicsLib\CMUgraphics.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\CMUgraphics.obj
 C:\Users\Shireen Mostafa\Desktop\PPP\CMUgraphicsLib\colors.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\colors.obj
@@ -37,3 +38,86 @@ C:\Users\Shireen Mostafa\Desktop\PPP\CMUgraphicsLib\jpeg\jutils.c;C:\Users\Shire
 C:\Users\Shireen Mostafa\Desktop\PPP\GUI\Input.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\Input.obj
 C:\Users\Shireen Mostafa\Desktop\PPP\GUI\Output.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\Output.obj
 C:\Users\Shireen Mostafa\Desktop\PPP\TestCode.cpp;C:\Users\Shireen Mostafa\Desktop\PPP\Debug\TestCode.obj
+=======
+<<<<<<< HEAD
+D:\Paint4 kids\CMUgraphicsLib\auxil.cpp;D:\Paint4 kids\Debug\auxil.obj
+D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp;D:\Paint4 kids\Debug\CMUgraphics.obj
+D:\Paint4 kids\CMUgraphicsLib\colors.cpp;D:\Paint4 kids\Debug\colors.obj
+D:\Paint4 kids\CMUgraphicsLib\image.cpp;D:\Paint4 kids\Debug\image.obj
+D:\Paint4 kids\CMUgraphicsLib\jpegload.c;D:\Paint4 kids\Debug\jpegload.obj
+D:\Paint4 kids\CMUgraphicsLib\keyqueue.cpp;D:\Paint4 kids\Debug\keyqueue.obj
+D:\Paint4 kids\CMUgraphicsLib\mousequeue.cpp;D:\Paint4 kids\Debug\mousequeue.obj
+D:\Paint4 kids\CMUgraphicsLib\windowinput.cpp;D:\Paint4 kids\Debug\windowinput.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jcomapi.c;D:\Paint4 kids\Debug\jcomapi.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jcparam.c;D:\Paint4 kids\Debug\jcparam.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdapimin.c;D:\Paint4 kids\Debug\jdapimin.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdapistd.c;D:\Paint4 kids\Debug\jdapistd.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdatasrc.c;D:\Paint4 kids\Debug\jdatasrc.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdcoefct.c;D:\Paint4 kids\Debug\jdcoefct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdcolor.c;D:\Paint4 kids\Debug\jdcolor.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jddctmgr.c;D:\Paint4 kids\Debug\jddctmgr.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdhuff.c;D:\Paint4 kids\Debug\jdhuff.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdinput.c;D:\Paint4 kids\Debug\jdinput.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmainct.c;D:\Paint4 kids\Debug\jdmainct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmarker.c;D:\Paint4 kids\Debug\jdmarker.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmaster.c;D:\Paint4 kids\Debug\jdmaster.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdmerge.c;D:\Paint4 kids\Debug\jdmerge.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdphuff.c;D:\Paint4 kids\Debug\jdphuff.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdpostct.c;D:\Paint4 kids\Debug\jdpostct.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdsample.c;D:\Paint4 kids\Debug\jdsample.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jdtrans.c;D:\Paint4 kids\Debug\jdtrans.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jerror.c;D:\Paint4 kids\Debug\jerror.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctflt.c;D:\Paint4 kids\Debug\jidctflt.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctfst.c;D:\Paint4 kids\Debug\jidctfst.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctint.c;D:\Paint4 kids\Debug\jidctint.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jidctred.c;D:\Paint4 kids\Debug\jidctred.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemmgr.c;D:\Paint4 kids\Debug\jmemmgr.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemnobs.c;D:\Paint4 kids\Debug\jmemnobs.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jquant1.c;D:\Paint4 kids\Debug\jquant1.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jquant2.c;D:\Paint4 kids\Debug\jquant2.obj
+D:\Paint4 kids\CMUgraphicsLib\jpeg\jutils.c;D:\Paint4 kids\Debug\jutils.obj
+D:\Paint4 kids\GUI\Input.cpp;D:\Paint4 kids\Debug\Input.obj
+D:\Paint4 kids\GUI\Output.cpp;D:\Paint4 kids\Debug\Output.obj
+D:\Paint4 kids\TestCode.cpp;D:\Paint4 kids\Debug\TestCode.obj
+=======
+D:\studfy\programming\project\CMUgraphicsLib\auxil.cpp;D:\studfy\programming\project\Debug\auxil.obj
+D:\studfy\programming\project\CMUgraphicsLib\CMUgraphics.cpp;D:\studfy\programming\project\Debug\CMUgraphics.obj
+D:\studfy\programming\project\CMUgraphicsLib\colors.cpp;D:\studfy\programming\project\Debug\colors.obj
+D:\studfy\programming\project\CMUgraphicsLib\image.cpp;D:\studfy\programming\project\Debug\image.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpegload.c;D:\studfy\programming\project\Debug\jpegload.obj
+D:\studfy\programming\project\CMUgraphicsLib\keyqueue.cpp;D:\studfy\programming\project\Debug\keyqueue.obj
+D:\studfy\programming\project\CMUgraphicsLib\mousequeue.cpp;D:\studfy\programming\project\Debug\mousequeue.obj
+D:\studfy\programming\project\CMUgraphicsLib\windowinput.cpp;D:\studfy\programming\project\Debug\windowinput.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jcomapi.c;D:\studfy\programming\project\Debug\jcomapi.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jcparam.c;D:\studfy\programming\project\Debug\jcparam.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdapimin.c;D:\studfy\programming\project\Debug\jdapimin.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdapistd.c;D:\studfy\programming\project\Debug\jdapistd.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdatasrc.c;D:\studfy\programming\project\Debug\jdatasrc.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdcoefct.c;D:\studfy\programming\project\Debug\jdcoefct.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdcolor.c;D:\studfy\programming\project\Debug\jdcolor.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jddctmgr.c;D:\studfy\programming\project\Debug\jddctmgr.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdhuff.c;D:\studfy\programming\project\Debug\jdhuff.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdinput.c;D:\studfy\programming\project\Debug\jdinput.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdmainct.c;D:\studfy\programming\project\Debug\jdmainct.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdmarker.c;D:\studfy\programming\project\Debug\jdmarker.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdmaster.c;D:\studfy\programming\project\Debug\jdmaster.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdmerge.c;D:\studfy\programming\project\Debug\jdmerge.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdphuff.c;D:\studfy\programming\project\Debug\jdphuff.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdpostct.c;D:\studfy\programming\project\Debug\jdpostct.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdsample.c;D:\studfy\programming\project\Debug\jdsample.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jdtrans.c;D:\studfy\programming\project\Debug\jdtrans.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jerror.c;D:\studfy\programming\project\Debug\jerror.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jidctflt.c;D:\studfy\programming\project\Debug\jidctflt.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jidctfst.c;D:\studfy\programming\project\Debug\jidctfst.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jidctint.c;D:\studfy\programming\project\Debug\jidctint.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jidctred.c;D:\studfy\programming\project\Debug\jidctred.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jmemmgr.c;D:\studfy\programming\project\Debug\jmemmgr.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jmemnobs.c;D:\studfy\programming\project\Debug\jmemnobs.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jquant1.c;D:\studfy\programming\project\Debug\jquant1.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jquant2.c;D:\studfy\programming\project\Debug\jquant2.obj
+D:\studfy\programming\project\CMUgraphicsLib\jpeg\jutils.c;D:\studfy\programming\project\Debug\jutils.obj
+D:\studfy\programming\project\GUI\Input.cpp;D:\studfy\programming\project\Debug\Input.obj
+D:\studfy\programming\project\GUI\Output.cpp;D:\studfy\programming\project\Debug\Output.obj
+D:\studfy\programming\project\TestCode.cpp;D:\studfy\programming\project\Debug\TestCode.obj
+>>>>>>> 263ad19451b9f4b30d70806aed2b8f53ba0f56f1
+>>>>>>> bd8d8c072c145160e61ad74f0383ed9c412d55a4
