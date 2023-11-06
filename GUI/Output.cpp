@@ -75,24 +75,20 @@ void Output::CreateDrawToolBar() const
 	//reoder them in UI_Info.h ==> enum DrawMenuItem
 	string MenuItemImages[DRAW_ITM_COUNT];
 	MenuItemImages[ITM_RECT]   = "images\\MenuItems\\Menu_Rect.jpg";
-	//MenuItemImages[ITM_SQUARE] = "images\\MenuItems\\Menu_Square.jpg";
+	MenuItemImages[ITM_SQUARE] = "images\\MenuItems\\Menu_Square.jpg";
 	MenuItemImages[ITM_TRI]    = "images\\MenuItems\\Menu_Tri.jpg";
 	MenuItemImages[ITM_CIRC]   = "images\\MenuItems\\Menu_Circ.jpg";
-	//MenuItemImages[ITM_HEXA]   = "images\\MenuItems\\Menu_Hexa.jpg";
-	//MenuItemImages[ITM_SELECT] = "images\\MenuItems\\Menu_Select.jpg";
-	//MenuItemImages[ITM_DELETE] = "images\\MenuItems\\Menu_Delete.jpg";
-	//MenuItemImages[ITM_CLEAR] = "images\\MenuItems\\Menu_Clear.jpg";
+	MenuItemImages[ITM_HEXA]   = "images\\MenuItems\\Menu_Hexa.jpg";
+	MenuItemImages[ITM_SELECT] = "images\\MenuItems\\Menu_Select.jpg";
+	MenuItemImages[ITM_DELETE] = "images\\MenuItems\\Menu_Delete.jpg";
+    MenuItemImages[ITM_CLEAR] = "images\\MenuItems\\Menu_Clear.jpg";
 	MenuItemImages[ITM_EXIT]   = "images\\MenuItems\\Menu_Exit.jpg";
-
-	MenuItemImages[ITM_RECT] = "images\\MenuItems\\Menu_Rect.jpg";
-	MenuItemImages[ITM_EXIT] = "images\\MenuItems\\Menu_Exit.jpg";
 	MenuItemImages[ITM_SAVEGRAPH] = "images\\MenuItems\\Save_graph.jpg"; 
 	MenuItemImages[ITM_LOADGRAPH] = "images\\MenuItems\\load.jpg";
 	MenuItemImages[ITM_StartRecording] = "images\\MenuItems\\Start_Recording.jpg";
 	MenuItemImages[ITM_StopRecording] = "images\\MenuItems\\Stop_Recording.jpg";
 	MenuItemImages[ITM_PlayRecord] = "images\\MenuItems\\Play_Record.jpg";
 	MenuItemImages[ITM_Switch_Play] = "images\\MenuItems\\To_Play.jpg";
-	//TODO: Prepare images for each menu item and add it to the list
 
 	//Draw menu item one image at a time
 	for(int i=0; i<DRAW_ITM_COUNT; i++)
