@@ -54,6 +54,33 @@ void Output::CreateStatusBar() const
 	pWind->SetBrush(UI.StatusBarColor);
 	pWind->DrawRectangle(0, UI.height - UI.StatusBarHeight, UI.width, UI.height);
 }
+void Output::CreateFigureToolBar() const
+{
+	UI.InterfaceMode = MODE_FIGURES;
+
+
+	pWind->SetPen(UI.BkGrndColor, 1);
+	pWind->SetBrush(UI.BkGrndColor);
+	pWind->DrawRectangle(0, 0, UI.width, UI.ToolBarHeight);
+
+	string MenuItemImages[FIGURE_COUNT];
+	MenuItemImages[ITM_RECT] = "images\\MenuItems\\Menu_Rect.jpg";
+	MenuItemImages[ITM_SQUARE] = "images\\MenuItems\\Menu_Square.jpg";
+	MenuItemImages[ITM_TRI] = "images\\MenuItems\\Menu_Tri.jpg";
+	MenuItemImages[ITM_CIRC] = "images\\MenuItems\\Menu_Circ.jpg";
+	MenuItemImages[ITM_HEXA] = "images\\MenuItems\\Menu_Hexa.jpg";
+	MenuItemImages[ITM_SWITCH] = "images\\MenuItems\\Menu_Back.jpg";
+
+	for (int i = 0; i < FIGURE_COUNT; i++)
+		pWind->DrawImage(MenuItemImages[i], i * UI.MenuItemWidth, 0, UI.MenuItemWidth, UI.ToolBarHeight);
+
+
+
+	//Draw a line under the toolbar
+	pWind->SetPen(RED, 3);
+	pWind->DrawLine(0, UI.ToolBarHeight, UI.width, UI.ToolBarHeight);
+
+}
 //////////////////////////////////////////////////////////////////////////////////////////
 void Output::ClearStatusBar() const
 {
@@ -74,11 +101,7 @@ void Output::CreateDrawToolBar() const
 	//To control the order of these images in the menu, 
 	//reoder them in UI_Info.h ==> enum DrawMenuItem
 	string MenuItemImages[DRAW_ITM_COUNT];
-	MenuItemImages[ITM_RECT]   = "images\\MenuItems\\Menu_Rect.jpg";
-	MenuItemImages[ITM_SQUARE] = "images\\MenuItems\\Menu_Square.jpg";
-	MenuItemImages[ITM_TRI]    = "images\\MenuItems\\Menu_Tri.jpg";
-	MenuItemImages[ITM_CIRC]   = "images\\MenuItems\\Menu_Circ.jpg";
-	MenuItemImages[ITM_HEXA]   = "images\\MenuItems\\Menu_Hexa.jpg";
+	MenuItemImages[ITM_FIGURES] = "images\\MenuItems\\Menu_Shapes.jpg";
 	MenuItemImages[ITM_SELECT] = "images\\MenuItems\\Menu_Select.jpg";
 	MenuItemImages[ITM_DELETE] = "images\\MenuItems\\Menu_Delete.jpg";
     MenuItemImages[ITM_CLEAR] = "images\\MenuItems\\Menu_Clear.jpg";

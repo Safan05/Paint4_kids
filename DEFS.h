@@ -11,6 +11,8 @@ enum ActionType //The actions supported (you can add more if needed)
 	DRAW_TRI,
 	DRAW_CIRC,
 	DRAW_HEXA,
+	FIGURES,
+	BACK_TO_DRAW,
 	SELECT,
     DELETE_FIG,
 	CLEAR_ALL,

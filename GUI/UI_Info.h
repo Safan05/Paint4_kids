@@ -10,18 +10,15 @@
 enum GUI_MODE	//Graphical user interface mode
 {
 	MODE_DRAW,	//Drawing mode (startup mode)
-	MODE_PLAY	//Playing mode
+	MODE_PLAY,	//Playing mode
+	MODE_FIGURES
 };
 
 enum DrawMenuItem //The items of the Draw menu (you should add more items)
 {
 	//Note: Items are **(ordered)** here as they appear in menu
 	//If you want to change the menu items order, change the order here
-	ITM_RECT,		//Recangle item in menu
-	ITM_SQUARE,
-	ITM_TRI,
-	ITM_CIRC,
-	ITM_HEXA,
+	ITM_FIGURES,
 	ITM_SELECT,
 	ITM_DELETE,
 	ITM_CLEAR,
@@ -34,6 +31,15 @@ enum DrawMenuItem //The items of the Draw menu (you should add more items)
 	ITM_EXIT,		//Exit item
 	DRAW_ITM_COUNT		//no. of menu items ==> This should be the last line in this enum
 	
+};
+enum Figures {
+	ITM_RECT,		
+	ITM_SQUARE,
+	ITM_TRI,
+	ITM_CIRC,
+	ITM_HEXA,
+	ITM_SWITCH,
+	FIGURE_COUNT
 };
 
 enum PlayMenuItem //The items of the Play menu (you should add more items)

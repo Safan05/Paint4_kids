@@ -232,6 +232,14 @@ int main()
 
 		switch (ActType)
 		{
+		case FIGURES:
+			pOut->PrintMessage("Action: Shapes , Creating Figure Toolbar");
+			pOut->CreateFigureToolBar();
+			break;
+		case BACK_TO_DRAW:
+			pOut->PrintMessage("Action: Back to Draw , Creating Draw Toolbar");
+			pOut->CreateDrawToolBar();
+			break;
 		case DRAW_RECT:
 			pOut->PrintMessage("Action: Draw a Rectangle , Click anywhere");
 			break;
