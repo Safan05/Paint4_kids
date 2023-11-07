@@ -1,62 +1,6 @@
 ﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  TestCode.cpp
-  windowinput.cpp
-  mousequeue.cpp
-  keyqueue.cpp
-  image.cpp
-D:\Paint4 kids\CMUgraphicsLib\image.cpp(115,29): warning C4018: '<': signed/unsigned mismatch
-  colors.cpp
-  auxil.cpp
-  CMUgraphics.cpp
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(257,9): warning C4101: 'iX': unreferenced local variable
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(257,13): warning C4101: 'iY': unreferenced local variable
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(751,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(1164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(1171,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(1202,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(1210,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\CMUgraphics.cpp(1357,23): warning C4018: '>': signed/unsigned mismatch
-  Generating Code...
-  Skipping... (no relevant changes detected)
   Output.cpp
-  Input.cpp
-cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  jpegload.c
-D:\Paint4 kids\CMUgraphicsLib\jpegload.c(23,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  jutils.c
-  jquant2.c
-  jquant1.c
-  jmemnobs.c
-  jmemmgr.c
-D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemmgr.c(1103,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\jpeg\jmemmgr.c(1106,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  jidctred.c
-  jidctint.c
-  jidctfst.c
-  jidctflt.c
-  jerror.c
-D:\Paint4 kids\CMUgraphicsLib\jpeg\jerror.c(169,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Paint4 kids\CMUgraphicsLib\jpeg\jerror.c(171,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  jdtrans.c
-  jdsample.c
-  jdpostct.c
-  jdphuff.c
-  jdmerge.c
-  jdmaster.c
-  jdmarker.c
-  jdmainct.c
-  jdinput.c
-  Generating Code...
-  Compiling...
-  jdhuff.c
-  jddctmgr.c
-  jdcolor.c
-  jdcoefct.c
-  jdatasrc.c
-  jdapistd.c
-  jdapimin.c
-  jcparam.c
-  jcomapi.c
-  Generating Code...
+D:\Paint4 kids\GUI\Output.cpp(261,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Paint4 kids\GUI\Output.cpp(257,8): warning C4101: 'P3': unreferenced local variable
   PT-Project.vcxproj -> D:\Paint4 kids\Debug\PT Project.exe
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5445,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
